@@ -6,7 +6,6 @@ import { prisma } from "@/lib/prisma";
 // Instagram comments live behind the Instagram Graph API, which is reached
 // through a Facebook Login token tied to a Page + linked IG Business account.
 const IG_SCOPES = [
-  "email",
   "pages_show_list",
   "pages_read_engagement",
   "instagram_basic",
